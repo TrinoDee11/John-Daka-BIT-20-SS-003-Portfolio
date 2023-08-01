@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9b9b9b;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    height: 22vh;
+}
+
+#navbar {
+    margin-top: -2.5rem;
+    width: 100%;
+    padding-bottom: 1.0rem;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#navbar li a:visited {
+    color: #fff;
+}
+
+#navbar li a:hover {
+    color: chocolate;
+}
+
+#about {
+    background: url(john.PNG) no-repeat center center/cover;
+    height: 80vh;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content {
+    width: 50%;
+    height: 53%;
+}
+
+#about #profile {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#name {
+    font-size: 2rem;
+    margin: auto 1.5rem;
+}
+
+#skills {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+}
+
+#projects {
+    padding: 1.2rem 0.9rem;
+}
+
+#projects h2 {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project {
+    padding-left: 5rem;
+    margin-bottom: 2.1rem;
+}
+
+hr {
+    margin-bottom: 2.1rem;
+}
+
+#contact {
+    background-color: #e0e0e0;
+    padding-bottom: 2rem;
+}
+
+#contact h2 {
+    padding: 1rem 3rem;
+    font-size: 2.2rem;
+}
+
+#contact-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-content li {
+    list-style: none;
+    margin: 0.4rem;
+}
+
+#contact-content li a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+    border: 0.1rem solid #ccc;
+    border-radius: 2rem;
+}
+
+ 
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+}
